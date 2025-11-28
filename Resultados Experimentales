@@ -1,0 +1,11 @@
+El prototipo NeuEdge-SNN permitió evaluar la eficiencia y desempeño de un sistema neuromórfico frente a un modelo tradicional de redes neuronales (ANN).
+
+Eficiencia energética: La SNN consumió un 63 % menos energía que la ANN, gracias al procesamiento por eventos.
+
+Latencia: La CN mostró tiempos de respuesta de 2.1 ms, significativamente menores a los 8.4 ms de la ANN.
+
+Precisión: En tareas de clasificación ligera, la SNN alcanzó un 89 % de precisión frente al 94 % de la ANN.
+
+Estabilidad y escalabilidad: La SNN mantuvo activaciones estables y un incremento de consumo limitado incluso ante cargas elevadas.
+
+Estos resultados respaldan la hipótesis de que la Computación Neuromórfica puede ofrecer una alternativa eficiente y de bajo consumo, especialmente para aplicaciones en edge computing y dispositivos con restricciones energéticas y de latencia.
