@@ -1,11 +1,29 @@
-El prototipo NeuEdge-SNN permitió evaluar la eficiencia y desempeño de un sistema neuromórfico frente a un modelo tradicional de redes neuronales (ANN).
+# NeuEdge-SNN: Prototipo de Simulación Neuromórfica
 
-Eficiencia energética: La SNN consumió un 63 % menos energía que la ANN, gracias al procesamiento por eventos.
+## 📌 Descripción
+El prototipo **NeuEdge-SNN** consiste en una simulación de computación neuromórfica diseñada para evaluar la eficiencia y el desempeño de **redes neuronales de picos (Spiking Neural Networks, SNN)**.  
+El sistema permite modelar neuronas artificiales que disparan por picos, medir tiempos de respuesta, analizar consumo energético y comparar su funcionamiento con arquitecturas tradicionales basadas en **redes neuronales artificiales (ANN)**.
 
-Latencia: La CN mostró tiempos de respuesta de 2.1 ms, significativamente menores a los 8.4 ms de la ANN.
+---
 
-Precisión: En tareas de clasificación ligera, la SNN alcanzó un 89 % de precisión frente al 94 % de la ANN.
+## 🎯 Objetivo principal
+El objetivo central del prototipo es **demostrar de manera visual y medible** cómo un sistema inspirado en principios biológicos del cerebro puede operar de forma eficiente en tareas de **clasificación ligera**, manteniendo **baja latencia** y un consumo energético reducido.
 
-Estabilidad y escalabilidad: La SNN mantuvo activaciones estables y un incremento de consumo limitado incluso ante cargas elevadas.
+---
 
-Estos resultados respaldan la hipótesis de que la Computación Neuromórfica puede ofrecer una alternativa eficiente y de bajo consumo, especialmente para aplicaciones en edge computing y dispositivos con restricciones energéticas y de latencia.
+## 🛠️ Contenido del repositorio
+- **`/src`** → Código fuente modular del simulador.  
+- **`/data`** → Dataset empleado en las pruebas experimentales.  
+- **`/results`** → Gráficas, capturas y evidencias de ejecución.  
+- **`/docs`** → Manual de uso y especificaciones técnicas.  
+- **`README.md`** → Documento principal con instrucciones generales.  
+- **`requirements.txt`** → Dependencias necesarias para la ejecución.  
+- **`LICENSE`** → Licencia de uso académico.  
+
+---
+
+## 🚀 Instalación y uso
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/usuario/NeuEdge-SNN.git
+   cd NeuEdge-SNN
