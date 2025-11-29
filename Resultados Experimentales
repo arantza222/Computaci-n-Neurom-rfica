@@ -1,29 +1,7 @@
-# NeuEdge-SNN: Prototipo de Simulación Neuromórfica
-
-## 📌 Descripción
-El prototipo **NeuEdge-SNN** consiste en una simulación de computación neuromórfica diseñada para evaluar la eficiencia y el desempeño de **redes neuronales de picos (Spiking Neural Networks, SNN)**.  
-El sistema permite modelar neuronas artificiales que disparan por picos, medir tiempos de respuesta, analizar consumo energético y comparar su funcionamiento con arquitecturas tradicionales basadas en **redes neuronales artificiales (ANN)**.
-
----
-
-## 🎯 Objetivo principal
-El objetivo central del prototipo es **demostrar de manera visual y medible** cómo un sistema inspirado en principios biológicos del cerebro puede operar de forma eficiente en tareas de **clasificación ligera**, manteniendo **baja latencia** y un consumo energético reducido.
-
----
-
-## 🛠️ Contenido del repositorio
-- **`/src`** → Código fuente modular del simulador.  
-- **`/data`** → Dataset empleado en las pruebas experimentales.  
-- **`/results`** → Gráficas, capturas y evidencias de ejecución.  
-- **`/docs`** → Manual de uso y especificaciones técnicas.  
-- **`README.md`** → Documento principal con instrucciones generales.  
-- **`requirements.txt`** → Dependencias necesarias para la ejecución.  
-- **`LICENSE`** → Licencia de uso académico.  
-
----
-
-## 🚀 Instalación y uso
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/usuario/NeuEdge-SNN.git
-   cd NeuEdge-SNN
+Compromiso inicial: se crea la estructura básica del repositorio con README, LICENSE y .gitignore.
+Se actualiza el archivo README.md con la descripción del prototipo NeuEdge-SNN y objetivos académicos.
+Se corrige error en la función de simulación de neuronas LIF en network.py.
+Se añaden gráficas y evidencias de ejecución en la carpeta /results para respaldar pruebas experimentales.
+Se integra dataset en la carpeta /data y se documenta su uso en docs/especificaciones.pdf.
+Se optimiza el módulo metrics.py para calcular latencias y exactitud de manera más eficiente.
+Se ajusta formato de sangría y comentarios en neuron.py para mejorar legibilidad.
